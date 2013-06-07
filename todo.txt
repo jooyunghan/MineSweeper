@@ -1,0 +1,27 @@
+mine sweeper
+
+------------------
+
+UI
+
+lose
+open!
+win!
+
+
+------------------
+
+scenario
+
+1. shows initial board w:h = 40:20
+  all closed, 30%
+2. click1 to open a cell 
+  if mine -> end
+  otherwise -> open the cell and shows the number of mines around it
+                  if the number is zero -> open the cells around 
+                  	recursively
+3. click2 to mark a cell as flag/question/clear
+4. click(1and2) to open adjacent closed cells if 인접 마인 갯수 만큼 제대로 플래그 표시 했을 때.
+5. shows the remaining number of mines
+
+
